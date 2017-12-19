@@ -1,7 +1,6 @@
 #!/bin/bash
 if [ -z $2 ] && [ -z $1 ]
 then
-  echo -1
   exit -1
 elif [ -z $2 ]
 then
